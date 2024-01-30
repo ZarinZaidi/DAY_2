@@ -1,0 +1,100 @@
+/*INSTRUCTIONS:
+    Apply the following styles to your HTML elements:
+    Style the <h1> heading:
+        Choose a custom font family.
+        Set a bold font weight.
+        Center align the text.
+        Add a bottom border for emphasis.
+    Style the <p> paragraph:
+        Set the text colour to a dark shade.
+        Increase the font size.
+        Set line height for better readability.
+        Add letter spacing to create a subtle separation.
+*/
+
+/*Styling based on instructions*/
+h1{
+    border: 2px solid #a38b1537;
+    padding: 10px;
+    margin: 10px;
+    background-color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 5px solid #09590f92;
+    color: black;
+}
+
+/*Styling based on instructions*/
+p{
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+    line-height: 4dvh;
+    letter-spacing: 0.6px;
+}
+
+/*matching the background with content background*/
+body{
+    background-color: #f6f1b0;
+}
+
+/*block with border greenish theme
+    sub with bgcolor greenish theme*/
+.content{
+    color: #0b430cd7;
+    padding: 5px;
+    text-indent: 2%;
+}
+
+/*list with square points,
+    bigger font,
+    more line spacing for readability*/
+li{
+    list-style-type: square;
+    font-size: 1.2em;
+    color: black;
+    line-height: 1.5em;
+    letter-spacing: 0.4px;
+}
+
+/*accentuate closing comment with link
+    more like call-to-action vibe
+    with other aspect having same style as container .afternoon-content*/
+#closing-para{
+    font-style: normal;
+    font-size: medium;
+}
+
+/*centered to accentuate end of page
+    bigger font to match h1 vibe
+    use of top and bottom border
+    with similar theme as h1*/
+footer{
+    padding: 15px;
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 5px solid #09590f92;
+    border-top: 5px solid #09590f92;
+    color: black;
+    font-size: x-large;
+    background-color: blanchedalmond;
+}
+
+/*hover action to 
+    highlight/isolate section of page
+    and color contrast to original content*/
+.content:hover{
+    color: rgb(227, 210, 197);
+    border:5px solid rgb(22, 83, 63);
+    background-color: #09590f92;
+    font-style: normal;
+    padding: 10px;
+    margin: 2px;
+}
+
+/*hover action
+    to highlight link*/
+a:hover{
+    color: red;
+}

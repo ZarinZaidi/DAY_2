@@ -1,0 +1,67 @@
+/*This is the syntax for adding a comment in CSS*/
+
+/*Class selectors: Style all instances of a particular class*/
+.container{
+    border: 5px solid #a38b1537;
+    padding: 10px;
+    margin: 10px;
+    background-color: blanchedalmond;
+}
+
+/*ID selectors: Style all instances of a particular ID*/
+#title{
+    background-color: #100202;
+    color: burlywood;
+    /*for color, u hv different options
+    RGB rgb(R,G,B) each number 0-255
+    Hexadecimal range from 00-FF eg: b13232
+    Key words eg: red*/
+    padding: 5px;
+}
+
+/*Element selectors: Style all instances of a particular element*/
+p{
+    color: rgb(176, 88, 0);
+    /*for font size, u may dictate in numerous ways
+    Absolute Units (Pixels) eg:20px
+    Relative Units to Parents (Em) eg:1.5em
+    Relative Units to Roots (rem) eg:2rem
+    Percentage eg:100%
+    Keywords eg:medium */
+    font-size: 1em;
+    font-style: oblique;
+}
+
+ul > li{
+    list-style-type: square;
+}
+
+p:hover{
+    color: rgb(57, 43, 190);
+    background-color: aquamarine;
+    font-size: 1.2em;
+    font-style: normal;
+}
+
+/*CSS Properties for the Box Model*/
+
+.box{
+    /*Width and Height of your content*/
+    width: 200px;
+    height: 150px;
+
+    /*Padding*/
+    /*padding for all side or padding-top/right/bottom/left*/
+    padding: 20px;
+
+    /*Border*/
+    /*border for all side or border-top/right/bottom/left*/
+    border: 2px solid #333;
+
+    /*Margin*/
+    /*margin for all side or margin-top/right/bottom/left*/
+    margin: 10px;
+}
+
+
+/**/

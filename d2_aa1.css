@@ -1,0 +1,107 @@
+/*INSTRUCTIONS:
+  Apply styles for the header, main content, and footer.
+  Use background colours, images, and gradients appropriately.
+  Experiment with background properties such as size, position, and repeat.
+  Implement visual effects such as opacity where applicable.
+  Ensure readability by adjusting text colours and backgrounds accordingly.
+  Implement a responsive design using media queries to adapt your styles for different screen sizes.
+  Add your creative touch by experimenting with different colour schemes, images, and design elements.
+*/
+
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  color: #f5f6f7;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  background-image: url(https://asiasociety.org/sites/default/files/styles/1200w/public/2020-04/1_6.jpg);
+    background-size: cover;
+    background-repeat: inherit;
+    background-position: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:65%;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-div{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  background-image: linear-gradient( 115deg, rgb(151, 184, 219), rgba(40, 103, 184, 0.7) );
+}
+
+/*Padding and border 
+  to frame contents and 
+  isolate based on sections*/
+#title{
+  padding: 20px;
+  border: 5px solid #5353c1;
+  margin: 5px;
+}
+
+h1,h2,h3{
+  text-align: center;
+  color: #000000;
+}
+
+/*Padded the footer and 
+  marginilised to cushion
+  for enhancement effect
+  highlight background making content pop
+  center aligned
+  give off the call-to-action vibe*/
+footer{
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  border-bottom: 5px solid #1b758d;
+  border-top: 5px solid #1b758d;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-color: rgb(151, 184, 219);
+}
+
+/*Cursive fonts
+  grandeur size*/
+h1{
+  font-size: 3em;
+  font-family:"Lucida Handwriting", cursive
+}
+
+/*give top + bottom border 
+  for compartmentalized vibe
+  highlight font to isolate section title*/
+h2{
+  border-bottom: 5px solid #1b758d;
+  border-top: 5px solid #1b758d;
+  color: black;
+  background-color: rgb(151, 184, 219);
+}
+
+/*Highlight background and 
+  contra fonts color
+  for readability and enhance contents*/
+.content{
+  background-image: linear-gradient( 115deg, rgb(151, 184, 219), rgb(40, 102, 184) );
+}
+
+p{
+  font-size: 1.2em;
+  text-align: center;
+}
